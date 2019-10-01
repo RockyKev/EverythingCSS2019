@@ -1,19 +1,21 @@
-## Random Notes
-Things I personally forget: 
-	text-decoration == about lines (overline, line-through, underline)
-	Creating a menu burger = Unicode directly &#9776;
-	padding = inside; margin = outside. 
+# Random Notes
+
+## Things I personally forget: 
+* text-decoration == about lines (overline, line-through, underline)
+* Creating a menu burger = Unicode directly ```&#9776```;
+* padding = inside; margin = outside. 
 	
-CSS Patterns: 
-	Standard website (navbar, sidebar, content, footer)
+### CSS Patterns: 
+* Standard website (navbar, sidebar, content, footer)
 	
-Borders: 
-	Border-styles: dotted, dashed, solid, double. (3D - groove, inset, outset)
-	box-shadow: 5px 5px 5px 5px red [hori,vert,blur,spread,color]
-		-inset to invert it. 
+### Borders: 
+* Border-styles: dotted, dashed, solid, double. (3D - groove, inset, outset)
+* box-shadow: 5px 5px 5px 5px red [hori,vert,blur,spread,color]
+** ---inset to invert it. 
 		
-Transforming: 
-	transform: skew(10deg, 10deg) rotate(-10deg) scale(2, 2)
+### Transforming: 
+* transform: skew(10deg, 10deg) rotate(-10deg) scale(2, 2), translate(20px, 10px)
+
 
 
 
@@ -60,10 +62,31 @@ Grid:
 
 Animation: 
 
+Transform-transition: 
+```
+<style>
+  img {
+    transform: rotateY(45 deg); 
+    transition: transform .5s ease-in, border .2s ease-in;
+    border: 2px dotted black;
+  }
+  
+  img:hover {
+    border: 10px solid black;
+    transform: scale(2);
+  }
+</style>
+
+  <img src="https://www.placecage.com/200/200">
+```
+NOTE: [transition: transform .5s ease-in;] 
+Transition: css element, time. 
+
+
 Drawing graphics: 
 	
 
-RECIPES: 
+SHAPES: 
 ```
 #egg {
     background: #fff;
