@@ -29,23 +29,13 @@
 
 ### Animate
 * define THEN call.
-* DEFINE with @keyframes [name]
+* DEFINE with @keyframes [name] //NOTE -- PLURAL. 
 * OPTION 1: with from { } and to { }
 * OPTION 2: with percentages 0% { } 10% { } 50% { } 100 { }
+* Use transform: x(); //NOTE: x() and x () are different. brackets must be next to each other.
 
 * CALL with animation-name
 * animation-name, animation-duration, animation-timing-function, animation-iteration-count;
-
-animation-fill-mode: forwards;   
-//ends the animation at the last frame
-
-animation-fill-mode: backwards; 
-//starts the animation on the first frame.
-
-animation-fill-mode: both; 
-
-https://static.md/ed4bcad4d4295c2844ba1b424a7cb55c.png
-
 ```
 //LONGFORM
 animation-name: NAME;
@@ -57,6 +47,18 @@ animation-iteration-count: infinite;
 //SHORTHAND
 animation: NAME 10s 0.5s linear infinite;
 ```
+
+
+animation-fill-mode: forwards;   
+//ends the animation at the last frame
+
+animation-fill-mode: backwards; 
+//starts the animation on the first frame.
+
+animation-fill-mode: both; 
+
+https://static.md/ed4bcad4d4295c2844ba1b424a7cb55c.png
+
 
 ###
 
