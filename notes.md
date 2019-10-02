@@ -46,7 +46,17 @@ animation-fill-mode: both;
 
 https://static.md/ed4bcad4d4295c2844ba1b424a7cb55c.png
 
+```
+//LONGFORM
+animation-name: NAME;
+animation-duration: 10s;
+animation-delay: 0.5s
+animation-timing-function: linear;
+animation-iteration-count: infinite; 
 
+//SHORTHAND
+animation: NAME 10s 0.5s linear infinite;
+```
 
 ###
 
