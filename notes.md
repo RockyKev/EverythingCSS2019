@@ -4,6 +4,7 @@
 * text-decoration == about lines (overline, line-through, underline)
 * Creating a menu burger = Unicode directly ```&#9776```;
 * padding = inside; margin = outside. 
+* border for outside. box-shadow (inset 0px 0px 0px 5px black) for inside.
 * CSS backgrounds for most pages are something like floralwhite or aliceblue;
 
 ### CSS Patterns: 
