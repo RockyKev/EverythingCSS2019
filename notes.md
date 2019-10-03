@@ -4,7 +4,8 @@
 * text-decoration == about lines (overline, line-through, underline)
 * Creating a menu burger = Unicode directly ```&#9776```;
 * padding = inside; margin = outside. 
-	
+* CSS backgrounds for most pages are something like floralwhite or aliceblue;
+
 ### CSS Patterns: 
 * Standard website (navbar, sidebar, content, footer)
 	
@@ -17,6 +18,7 @@
 * transform: skew(10deg, 10deg) rotate(-10deg) scale(2, 2), translate(20px, 10px)
 * translate is like position from origin, but efficient.
 * transition - use this with a psuedoclass. 
+
 ```
 .img {
     transition: transform .2s ease-in;
@@ -62,7 +64,7 @@ https://static.md/ed4bcad4d4295c2844ba1b424a7cb55c.png
 
 ###
 
-
+---
 ## Links
 Borders: 
 	* drawing eggs: https://www.htmldog.com/guides/css/advanced/roundedcorners/
@@ -89,6 +91,7 @@ Animation:
 	keyframes: https://thoughtbot.com/blog/css-animation-for-beginners
 	basics: https://css-tricks.com/almanac/properties/a/animation/
 	direct code: https://github.com/all-animation/all-animation/blob/master/assets/css/all-animation.css
+	music beat: https://css-tricks.com/using-multi-step-animations-transitions/
 
 Drawing graphics: 
 	CSS Shapes: https://css-tricks.com/the-shapes-of-css/
