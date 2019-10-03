@@ -1,5 +1,7 @@
 # Random Notes
 
+Print this: https://docs.google.com/document/d/1aMmZndOdtU91aMwk7IyIgyd3Ji2b1zpuaRzXRa3ZbFw/edit
+
 ## Things I personally forget: 
 * text-decoration == about lines (overline, line-through, underline)
 * Creating a menu burger = Unicode directly ```&#9776```;
